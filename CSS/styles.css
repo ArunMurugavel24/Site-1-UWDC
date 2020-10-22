@@ -1,0 +1,26 @@
+body {
+  background-color: #e4f7f8;
+}
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 2px;
+  width: 5%;
+}
+h1 {
+  color: black;
+}
+h3 {
+  color: #66bfbf;
+}
+#circular {
+  border-radius: 100%;
+}
+/* We can have more rhan one classes in the same inline element but not with id. e.g.: class="Hello World"(possible as we can use 2 selectors: Hello, World) id="Hello World"(not possible)*/
+/* Pseudo- selectore*/
+a:hover {
+  background-color: gold;
+  color: red;
+}
